@@ -1,9 +1,8 @@
 package com.unicaldas.login
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.unicaldas.login.R
+import androidx.appcompat.app.AppCompatActivity
 
 class ActivityPruebaSaber : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
