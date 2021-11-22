@@ -18,11 +18,11 @@ class MainActivity : AppCompatActivity() {
             validarCredenciales()
         }
 
-        /*val btnAdd = findViewById<Button>(R.id.btnAdicionar)
-        btnAdd.setOnClickListener {
+        val btnAdicionar = findViewById<Button>(R.id.btnAdicionar)
+        btnAdicionar.setOnClickListener {
             val intentRegister = Intent(this, ActivityRegister::class.java)
             startActivity(intentRegister)
-        }*/
+        }
 
     }
 

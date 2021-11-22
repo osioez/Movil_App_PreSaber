@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">App_PreSaber</string>
+    <string name="text_userEtiqueta">Registrar Usuario</string>
+    <string name="text_username">Usuario</string>
+    <string name="hint_username">Ingresa tu usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="hint_password">Ingresa tu contraseña</string>
+    <string name="text_login">Iniciar</string>
+
+    <string name="text_userNames">Nombres</string>
+    <string name="text_userANames">Ingresa tus Nombres</string>
+    <string name="text_userLastNames">Apellidos</string>
+    <string name="text_userALastNames">Ingresa tus Apellidos</string>
+    <string name="text_userEmail">Correo</string>
+    <string name="text_userYEmail">Ingresa tu Correo</string>
+    <string name="text_userPass">Contraseña</string>
+    <string name="text_userYPass">Ingres una Contraseña</string>
+    <string name="text_testsKnow">Pruebas Saber</string>
+
+    <string name="txt_welcome">Bienvenido!</string>
+    <string name="txt_user">Usuario: </string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">CANCELAR</string>
+    <string name="txt_error">ERROR!</string>
+    <string name="txt_invalid">Usuario o contraseña invalida.</string>
+
+    <string name="text_welcome">Bienvenido</string>
+    <string name="user">Leandro</string>
+    <string name="txt_introduction">Introduccion</string>
+    <string name="txt_class1">Clase 1</string>
+
+    <string name="txt_fragment">Fragmento</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </string>
+    <string name="lorem_ipsum_2">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+    </string>
+
+
+    <string name="txt_action_search">Buscar</string>
+    <string name="txt_action_settings">Configurar</string>
+    <string name="txt_action_logout">Salir</string>
+
+    <string name="txt_fab">Agregar Elemento</string>
+
+    <string name="txt_tarea_1">Go to supermarket.</string>
+    <string name="txt_tarea_2">Take car to maintenance.</string>
+    <string name="txt_tarea_3">Do laundry.</string>
+
+    <string name="txt_tarea">TASK</string>
+    <string name="txt_hora">TIME</string>
+    <string name="txt_lugar">PLACE</string>
+
+    <string name="txt_todo">To Do</string>
+    <string name="txt_about">About</string>
+    <string name="txt_about_info">Developed by: \n\n JULIÁN ANDRÉS MONTES GARCÍA</string>
+
+
+</resources>
