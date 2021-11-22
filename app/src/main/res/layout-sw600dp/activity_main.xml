@@ -16,14 +16,14 @@
 
         <ImageView
             android:id="@+id/imgViewUcaldas"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:src="@drawable/ucaldas" />
 
         <ImageView
             android:id="@+id/imgViewMisionTic"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:src="@drawable/mintic" />
 
     </LinearLayout>
@@ -40,14 +40,14 @@
             android:layout_height="wrap_content"
             android:text="@string/text_username"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="40sp" />
 
         <EditText
             android:id="@+id/edtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/text_username"
-            android:minHeight="48dp"/>
+            android:minHeight="40dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,26 +55,28 @@
             android:text="@string/text_password"
             android:layout_marginTop="25dp"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="40sp" />
 
         <EditText
             android:id="@+id/edtPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_password"
-            android:minHeight="48dp" />
+            android:minHeight="40dp" />
 
         <Button
             android:id="@+id/btnIngresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
+            android:textSize="30sp"
             android:text="@string/text_login" />
 
         <Button
             android:id="@+id/btnAdicionar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="30sp"
             android:text="@string/text_userEtiqueta" />
     </LinearLayout>
 </LinearLayout>
