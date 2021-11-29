@@ -11,8 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
+            android:name=".ActivityEditQuestions"
+            android:exported="false"/>
+        <activity
             android:name=".ActivityRegister"
             android:exported="false"/>
+        <activity
+            android:name=".ActivityRegisterQuestions"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".ActivityPruebaSaber"
             android:exported="false"

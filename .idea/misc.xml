@@ -3,14 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout-land/activity_main.xml" value="0.67" />
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout-sw480dp-land/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout-sw480dp/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.23736338797814208" />
-        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_edit_questions.xml" value="0.22" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_pruebasaber.xml" value="0.25" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_register_questions.xml" value="0.22" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/preguntas_list_item.xml" value="0.33" />
+        <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout/activity_pruebasaber.xml" value="0.33" />
         <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Users/cmmarting/AndroidStudioProjects/Login2/app/src/main/res/layout/prueba.xml" value="0.35643115942028986" />

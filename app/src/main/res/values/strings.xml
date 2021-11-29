@@ -8,15 +8,9 @@
     <string name="text_login">LOGIN</string>
 
     <string name="text_userNames">Names</string>
-    <string name="text_userANames">Enter your full name</string>
     <string name="text_userLastNames">LastNames</string>
-    <string name="text_userALastNames">Enter your last name full</string>
     <string name="text_userEmail">Email</string>
-    <string name="text_userYEmail">Enter your email</string>
     <string name="text_userPass">Password</string>
-    <string name="text_userYPass">Enter a Password</string>
-    <string name="text_testsKnow">Tests to know</string>
-
 
     <string name="txt_welcome">WELCOME!</string>
     <string name="txt_user">User: </string>
