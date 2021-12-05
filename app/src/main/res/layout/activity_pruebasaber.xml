@@ -17,24 +17,28 @@
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:layout_marginTop="12dp"
-            android:text="Preguntas"
+            android:text="@string/tvPregunta"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <ListView
             android:id="@+id/lvPreguntas"
             android:layout_width="wrap_content"
-            android:layout_height="409dp" />
+            android:layout_height="376dp">
 
-        <Button
-            android:id="@+id/btnAdd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add" />
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Add" />
+        </ListView>
+
         <Button
             android:id="@+id/btnCerrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
             android:text="Close" />
     </LinearLayout>
 </LinearLayout>

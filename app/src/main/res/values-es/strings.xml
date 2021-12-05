@@ -60,4 +60,28 @@
     <string name="txt_about_info">Developed by: \n\n JULIÁN ANDRÉS MONTES GARCÍA</string>
 
 
+    <string name="tvCrearPregunta">Crear Pregunta</string>
+    <string name="tvPregunta">Pregunta</string>
+    <string name="edtRedaccion"> Redacte Pregunta</string>
+    <string name="tvOp1">Opccion uno</string>
+    <string name="edtexto">Escriba texto</string>
+    <string name="tvOp2">Opccion dos</string>
+    <string name="tvOp3">Opccion tres</string>
+    <string name="edtRes">Respuesta</string>
+    <string name="edtRespuesta">Escriba Respuesta</string>
+    <string name="tvArea">Area</string>
+    <string name="tvAreaEscriba">Escriba el area de conocimiento</string>
+    <string name="btnEdtPregunta">Editar Pregunta</string>
+    <string name="btnEliPregunta">Eliminar Pregunta</string>
+    <string name="btnGuarPregunta">Guardar Pregunta</string>
+    <string name="btnAgregarPregunta">Agregar Pregunta</string>
+
+    <string name="edtProfesor">Profesor</string>
+    <string name="edtEstudiante">Estudiante</string>
+
+    <string name="tvTitulo">Titulo</string>
+    <string name="tvDuracion">Duracion</string>
+
+
 </resources>
+

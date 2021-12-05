@@ -15,15 +15,15 @@
             android:id="@+id/areaPregunta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="@string/tvTitulo"/>
+            android:textSize="40sp"
+            android:text="Titulo"/>
 
         <TextView
             android:id="@+id/descripcionPregunta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="@string/tvDuracion"/>
+            android:textSize="40sp"
+            android:text="Duración"/>
     </LinearLayout>
 
 </LinearLayout>

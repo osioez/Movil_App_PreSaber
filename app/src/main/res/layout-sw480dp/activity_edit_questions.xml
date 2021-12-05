@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvPregunta"
+            android:text="Pregunta"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -25,7 +25,7 @@
             android:id="@+id/edtPregunta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtRedaccion"
+            android:hint="Redacte la pregunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -34,7 +34,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvOp1"
+            android:text="Opcion Uno"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -42,7 +42,7 @@
             android:id="@+id/edtOpcUno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtexto"
+            android:hint="Escriba el texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -51,7 +51,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvOp2"
+            android:text="Opcion Dos"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -59,7 +59,7 @@
             android:id="@+id/edtOpcDos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtexto"
+            android:hint="Escriba el texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -68,7 +68,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvOp3"
+            android:text="Opcion Tres"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -76,7 +76,7 @@
             android:id="@+id/edtOpcTres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtexto"
+            android:hint="Escriba el texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -84,7 +84,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/edtRes"
+            android:text="Respuesta"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -92,7 +92,7 @@
             android:id="@+id/edtRespuesta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtRespuesta"
+            android:hint="Escriba la respuesta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -100,7 +100,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvArea"
+            android:text="Area"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -108,7 +108,7 @@
             android:id="@+id/edtArea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/tvAreaEscriba"
+            android:hint="Escriba el area de conocimiento"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -117,16 +117,16 @@
             android:id="@+id/btnEditarPregunta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnEdtPregunta" />
+            android:text="Editar Pregunta" />
         <Button
             android:id="@+id/btnEliminarPregunta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnEliPregunta" />
+            android:text="Eliminar Pregunta" />
         <Button
             android:id="@+id/btnGuardarPregunta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="string/btnGuarPregunta" />
+            android:text="Guardar Pregunta" />
     </LinearLayout>
 </LinearLayout>

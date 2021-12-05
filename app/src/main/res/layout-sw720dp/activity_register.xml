@@ -5,128 +5,130 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="20dp"
-    tools:context=".ActivityEditQuestions">
+    android:layout_margin="30dp"
+    tools:context=".ActivityRegister">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgViewUcaldas"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:src="@drawable/ucaldas" />
+
+        <ImageView
+            android:id="@+id/imgViewMisionTic"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/mintic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:layout_margin="5dp"
         android:orientation="vertical">
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvPregunta"
+            android:text="@string/text_userNames"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="40sp" />
 
         <EditText
-            android:id="@+id/edtPregunta"
+            android:id="@+id/edtNames"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtRedaccion"
+            android:hint="Names"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
+            android:textSize="40sp"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvOp1"
+            android:text="@string/text_userLastNames"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="40sp" />
 
         <EditText
-            android:id="@+id/edtOpcUno"
+            android:id="@+id/edtLastNames"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtexto"
+            android:hint="Last Names"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
+            android:textSize="40sp"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvOp2"
+            android:text="@string/text_userEmail"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="40sp" />
 
         <EditText
-            android:id="@+id/edtOpcDos"
+            android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtexto"
+            android:hint="email"
+            android:inputType="textEmailAddress"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
+            android:textSize="40sp"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvOp3"
+            android:text="@string/text_userPass"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="40sp" />
 
         <EditText
-            android:id="@+id/edtOpcTres"
+            android:id="@+id/edtPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/edtexto"
+            android:hint="password"
+            android:inputType="textPassword"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
+            android:textSize="40sp"
             app:layout_constraintTop_toTopOf="parent" />
-        <TextView
+        <CheckBox
+            android:id="@+id/chkProfesor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/edtRes"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/edtRespuesta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/edtRespuesta"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-        <TextView
+            android:textSize="40sp"
+            android:text="Profesor" />
+        <CheckBox
+            android:id="@+id/chkEstudiante"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tvArea"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="40sp"
+            android:text="Estudiante" />
 
-        <EditText
-            android:id="@+id/edtArea"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/tvAreaEscriba"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
         <Button
-            android:id="@+id/btnEditarPregunta"
+            android:id="@+id/btnAdicionar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnEdtPregunta" />
-        <Button
-            android:id="@+id/btnEliminarPregunta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btnEliPregunta" />
-        <Button
-            android:id="@+id/btnGuardarPregunta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="string/btnGuarPregunta" />
+            android:text="Add user"
+            android:textSize="40sp"
+            android:layout_marginTop="20sp"/>
     </LinearLayout>
 </LinearLayout>
