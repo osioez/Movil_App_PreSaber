@@ -71,12 +71,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="@string/text_login" />
+            android:text="LOGIN" />
 
         <Button
             android:id="@+id/btnAdicionar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_userEtiqueta" />
+            android:text="CREATE NEW USER" />
     </LinearLayout>
 </LinearLayout>

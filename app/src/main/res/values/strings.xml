@@ -7,8 +7,6 @@
     <string name="hint_password">Your password</string>
     <string name="text_login">LOGIN</string>
 
-
-
     <string name="text_userNames">Names</string>
     <string name="text_userLastNames">LastNames</string>
     <string name="text_userEmail">Email</string>
@@ -55,31 +53,6 @@
     <string name="txt_todo">To Do</string>
     <string name="txt_about">About</string>
     <string name="txt_about_info">Developed by: \n\n JULIÁN ANDRÉS MONTES GARCÍA</string>
-
-
-    <string name="tvCrearPregunta">Create Question</string>
-    <string name="tvPregunta">Question</string>
-    <string name="edtRedaccion">Write the question</string>
-    <string name="tvOp1">Option one</string>
-    <string name="edtexto">Type the text</string>
-    <string name="tvOp2">Option two</string>
-    <string name="tvOp3">Option three</string>
-    <string name="edtRes">Answer</string>
-    <string name="edtRespuesta">Type the Answer</string>
-    <string name="tvArea">Area</string>
-    <string name="tvAreaEscriba">Type the area of knowledge</string>
-    <string name="btnEdtPregunta">EDIT QUESTION</string>
-    <string name="btnEliPregunta">DELETE QUESTION</string>
-    <string name="btnGuarPregunta">SAVE QUESTION</string>
-    <string name="btnAgregarPregunta">Add Question</string>
-
-    <string name="edtProfesor">Teacher</string>
-    <string name="edtEstudiante">Student</string>
-
-    <string name="tvTitulo">Title</string>
-    <string name="tvDuracion">Duration</string>
-
-
 
 
 </resources>

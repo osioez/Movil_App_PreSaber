@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 if(usuario != null){
                     if (edtUsuario.text.toString() == usuario.correo) {
                         if (edtPass.text.toString() == usuario.contrasena) {
-                            abrir(usuario.rol)
+                            abrir(usuario.id,usuario.rol)
                         } else {
                             //Toast.makeText(applicationContext?, "Valide su contraseña", Toast.LENGTH_LONG).show()
                         }
@@ -69,10 +69,11 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    private fun abrir(rol: Int) {
+    private fun abrir(usuarioId: Int,rol: Int) {
 
         val intentPruebaSaber = Intent(this, ActivityPruebaSaber::class.java)
         intentPruebaSaber.putExtra("idRol",rol)
+        intentPruebaSaber.putExtra("idUser",usuarioId)
         startActivity(intentPruebaSaber)
     }
 /**

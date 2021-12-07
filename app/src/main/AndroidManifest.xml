@@ -11,11 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
+            android:name=".resolverTest"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTest"
+            android:exported="false" />
+        <activity
             android:name=".ActivityEditQuestions"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ActivityRegister"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ActivityRegisterQuestions"
             android:exported="false"
@@ -27,7 +33,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -46,7 +46,7 @@
             android:id="@+id/edtNames"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/text_userNames"
+            android:hint="Names"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -63,7 +63,7 @@
             android:id="@+id/edtLastNames"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/text_userLastNames"
+            android:hint="Last Names"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -80,7 +80,7 @@
             android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/text_userEmail"
+            android:hint="email"
             android:inputType="textEmailAddress"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -98,7 +98,7 @@
             android:id="@+id/edtPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/text_userPass"
+            android:hint="password"
             android:inputType="textPassword"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -108,17 +108,17 @@
             android:id="@+id/chkProfesor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/edtProfesor" />
+            android:text="Profesor" />
         <CheckBox
             android:id="@+id/chkEstudiante"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/edtEstudiante" />
+            android:text="Estudiante" />
 
         <Button
             android:id="@+id/btnAdicionar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_userEtiqueta" />
+            android:text="Add user" />
     </LinearLayout>
 </LinearLayout>

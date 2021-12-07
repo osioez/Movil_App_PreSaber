@@ -17,8 +17,10 @@ class ActivityPruebaSaber : AppCompatActivity() {
 
         val datos = this.intent.extras
         val rol =  datos!!.getInt("idRol")
+        val idUser =  datos!!.getInt("idUser")
         var listaPreguntas = emptyList<Pregunta>()
         val btnAdd = findViewById<Button>(R.id.btnAdd)
+        val btnViewTest=findViewById<Button>(R.id.btnViewTest)
 
         if(rol > 0){
             btnAdd.visibility = View.INVISIBLE
@@ -40,6 +42,12 @@ class ActivityPruebaSaber : AppCompatActivity() {
         btnAdd.setOnClickListener {
             val intentRegisterPreg = Intent(this, ActivityRegisterQuestions::class.java)
             startActivity(intentRegisterPreg)
+        }
+
+        btnViewTest.setOnClickListener {
+            val intentTest = Intent(this, ActivityTest::class.java)
+            intentTest.putExtra("idUser",idUser)
+            startActivity(intentTest)
         }
 
         val btnCerrar = findViewById<Button>(R.id.btnCerrar)
