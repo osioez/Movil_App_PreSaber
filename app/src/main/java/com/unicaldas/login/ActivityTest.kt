@@ -44,6 +44,7 @@ class ActivityTest : AppCompatActivity() {
             val intentTest = Intent(applicationContext, resolverTest::class.java)
 
             intentTest.putExtra("idTest", listaTest[position].id)
+            intentTest.putExtra("estadoTest", listaTest[position].estado)
             startActivity(intentTest)
             //intentTest.putExtra("listPregTest",listPregTest)
             //startActivity(intentTest)

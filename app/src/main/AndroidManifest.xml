@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
+            android:name=".ActivityResultadoTest"
+            android:exported="false" />
+        <activity
             android:name=".resolverTest"
             android:exported="false" />
         <activity

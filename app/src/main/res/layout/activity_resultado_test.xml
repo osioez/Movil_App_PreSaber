@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityResultadoTest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Pregunta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test de preguntas con única respuesta"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resPreg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/resCorrecta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Pregunta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test de preguntas con única respuesta"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resPreg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/resCorrecta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Pregunta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test de preguntas con única respuesta"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resPreg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/resCorrecta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Pregunta4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test de preguntas con única respuesta"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resPreg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/resCorrecta4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Pregunta5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test de preguntas con única respuesta"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resPreg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/resCorrecta5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/nota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nota"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close" />
+    </LinearLayout>
+</LinearLayout>

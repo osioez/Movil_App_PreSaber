@@ -55,6 +55,8 @@ class MainActivity : AppCompatActivity() {
                         if (edtPass.text.toString() == usuario.contrasena) {
                             abrir(usuario.id,usuario.rol)
                         } else {
+                            //showBasicDialog()
+                            //Toast.makeText(applicationContext, "Valide su contraseña",Toast.LENGTH_LONG).show()
                             //Toast.makeText(applicationContext?, "Valide su contraseña", Toast.LENGTH_LONG).show()
                         }
                     }else {
@@ -69,6 +71,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+
+
     private fun abrir(usuarioId: Int,rol: Int) {
 
         val intentPruebaSaber = Intent(this, ActivityPruebaSaber::class.java)
@@ -76,8 +81,8 @@ class MainActivity : AppCompatActivity() {
         intentPruebaSaber.putExtra("idUser",usuarioId)
         startActivity(intentPruebaSaber)
     }
-/**
-    private fun showBasicDialog(view: View){
+
+    /**private fun showBasicDialog(view: View) {
         val dialog = AlertDialog.Builder(this).setTitle("ERROR!")
             .setMessage("Usuario o Contaseña Invalida").create().show()
     }**/

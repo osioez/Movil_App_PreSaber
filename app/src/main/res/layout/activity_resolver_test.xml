@@ -4,17 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".resolverTest">
 
-    <EditText
-        android:id="@+id/edtTest"
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="test"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/edtTest"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:hint="test"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/numPreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Test de preguntas con única respuesta"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/desPreg"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_marginTop="12dp"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/RespA"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="18sp"
+            android:text="A" />
+        <RadioButton
+            android:id="@+id/RespB"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="18sp"
+            android:text="B"
+            />
+        <RadioButton
+            android:id="@+id/RespC"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="18sp"
+            android:text="C"
+            />
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Questions" />
+        <Button
+            android:id="@+id/btnResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado Test" />
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close" />
+
+        <TextView
+            android:id="@+id/resPreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Seleccione una sola pregunta"
+            android:textColor="@color/black"
+            android:textSize="1sp" />
+
+    </LinearLayout>
 </LinearLayout>

@@ -4,15 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout-sw720dp/test_list_item.xml" value="0.1" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_edit_questions.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_main.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_pruebasaber.xml" value="0.33" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_register.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_register_questions.xml" value="0.11548913043478261" />
-        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_resolver_test.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_resolver_test.xml" value="0.22" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_resultado_test.xml" value="0.3104" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/activity_test.xml" value="0.22" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/preguntas_list_item.xml" value="0.5" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/prueba.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-copiaMain/app/src/main/res/layout/test_list_item.xml" value="0.22" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_edit_questions.xml" value="0.22" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Yheison/AndroidStudioProjects/Movil_App_PreSaber-main/app/src/main/res/layout/activity_pruebasaber.xml" value="0.25" />

@@ -13,6 +13,9 @@ interface RespuestaDao {
     @Query( "SELECT * FROM respuestatest WHERE id = :id")
     fun getRespuestaTest( id: Int) : RespuestaTest
 
+    @Query( "SELECT * FROM respuestatest WHERE testId = :testId")
+    fun getRespuestaTestId( testId: Int) : RespuestaTest
+
     @Insert
     fun insertRespuestaTest(respuestatest: RespuestaTest)
 
